@@ -1,138 +1,91 @@
-\# 🚀 Marico AI-Powered Customer Reconciliation \& Claims Resolution System
+# 🚀 Marico AI-Powered Customer Reconciliation \& Claims Resolution System
 
 
 
-\## Industry-Level Solution for FMCG Channels (Organised Trade, Modern Trade \& D2C)
+## Industry-Level Solution for FMCG Channels (Organised Trade, Modern Trade \& D2C)
 
 
 
-\---
+## 🎯 Overview
 
 
 
-\## 📋 Table of Contents
+This is an **AI-powered intelligent reconciliation system** designed for FMCG companies like **Marico** to automate customer reconciliation and claims resolution across **Organised Trade (OT)**, **Modern Trade (MT)**, and **Direct-to-Consumer (D2C)** channels.
 
-1\. \[Overview](#overview)
 
-2\. \[Features](#features)
 
-3\. \[Tech Stack](#tech-stack)
+### Business Problem Solved
 
-4\. \[Project Structure](#project-structure)
+❌ Manual reconciliation taking **months** → ✅ **Real-time AI detection**
 
-5\. \[Installation Guide](#installation-guide)
+❌ Blocked working capital → ✅ **Immediate mismatch identification**
 
-6\. \[How to Run](#how-to-run)
+❌ Fragmented data sources → ✅ **Unified dashboard**
 
-7\. \[Demo Guide](#demo-guide)
+❌ Slow claims resolution → ✅ **AI-suggested resolutions**
 
-8\. \[AI Capabilities](#ai-capabilities)
 
-9\. \[Screenshots](#screenshots)
 
-10\. \[Troubleshooting](#troubleshooting)
+## ✨ Key Features
 
 
 
-\---
+### 1. **AI-Powered Mismatch Detection**
 
+- Automatically identifies discrepancies in:
+- Quantity differences
+- Price differences
+- Missing invoices
+- Claims disputes
+- Logistics deductions
+- Damage claims
 
 
-\## 🎯 Overview
+### 2. **QR/Barcode Scanner Integration**
 
+- Scan product barcodes using mobile camera
 
+- Auto-fetch product details from master database
 
-This is an \*\*AI-powered intelligent reconciliation system\*\* designed for FMCG companies like \*\*Marico\*\* to automate customer reconciliation and claims resolution across \*\*Organised Trade (OT)\*\*, \*\*Modern Trade (MT)\*\*, and \*\*Direct-to-Consumer (D2C)\*\* channels.
+- Simulated scanner for demo purposes
 
 
 
-\### Business Problem Solved
+### 3. **Intelligent Claims Resolution**
 
-\- ❌ Manual reconciliation taking \*\*months\*\* → ✅ \*\*Real-time AI detection\*\*
+- AI classifies mismatch type with **94% accuracy**
 
-\- ❌ Blocked working capital → ✅ \*\*Immediate mismatch identification\*\*
+- Provides probable reasons
 
-\- ❌ Fragmented data sources → ✅ \*\*Unified dashboard\*\*
+- Suggests step-by-step resolution
 
-\- ❌ Slow claims resolution → ✅ \*\*AI-suggested resolutions\*\*
+- Priority-based severity classification
 
 
 
-\---
+### 4. **Interactive Dashboard**
 
+- Real-time metrics and KPIs
 
+- Visual analytics (charts, graphs)
 
-\## ✨ Key Features
+- Downloadable reports
 
+- Customer portal view
 
 
-\### 1. \*\*AI-Powered Mismatch Detection\*\*
 
-\- Automatically identifies discrepancies in:
+### 5. **Multi-Channel Support**
 
-&#x20; - Quantity differences
+- Organised Trade (OT)
 
-&#x20; - Price differences
+- Modern Trade (MT)
 
-&#x20; - Missing invoices
+- Direct-to-Consumer (D2C)
 
-&#x20; - Claims disputes
 
-&#x20; - Logistics deductions
 
-&#x20; - Damage claims
-
-
-
-\### 2. \*\*QR/Barcode Scanner Integration\*\*
-
-\- Scan product barcodes using mobile camera
-
-\- Auto-fetch product details from master database
-
-\- Simulated scanner for demo purposes
-
-
-
-\### 3. \*\*Intelligent Claims Resolution\*\*
-
-\- AI classifies mismatch type with \*\*94% accuracy\*\*
-
-\- Provides probable reasons
-
-\- Suggests step-by-step resolution
-
-\- Priority-based severity classification
-
-
-
-\### 4. \*\*Interactive Dashboard\*\*
-
-\- Real-time metrics and KPIs
-
-\- Visual analytics (charts, graphs)
-
-\- Downloadable reports
-
-\- Customer portal view
-
-
-
-\### 5. \*\*Multi-Channel Support\*\*
-
-\- Organised Trade (OT)
-
-\- Modern Trade (MT)
-
-\- Direct-to-Consumer (D2C)
-
-
-
-\---
-
-
-
-\## 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 
 
@@ -140,27 +93,23 @@ This is an \*\*AI-powered intelligent reconciliation system\*\* designed for FMC
 
 |-----------|------------|
 
-| \*\*Frontend\*\* | Streamlit (Python) |
+| **Frontend** | Streamlit (Python) |
 
-| \*\*Backend\*\* | Python 3.13+ |
+| **Backend** | Python 3.13+ |
 
-| \*\*AI/ML\*\* | Scikit-learn (Random Forest Classifier) |
+| **AI/ML** | Scikit-learn (Random Forest Classifier) |
 
-| \*\*Data Processing\*\* | Pandas, NumPy |
+| **Data Processing** | Pandas, NumPy |
 
-| \*\*Visualization\*\* | Plotly, Matplotlib |
+| **Visualization** | Plotly, Matplotlib |
 
-| \*\*Scanner\*\* | OpenCV, Pyzbar (optional) |
+| **Scanner** | OpenCV, Pyzbar (optional) |
 
-| \*\*File Format\*\* | CSV, Excel |
-
-
-
-\---
+| **File Format** | CSV, Excel |
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 
 
@@ -224,23 +173,22 @@ marico\_reconciliation\_advanced/
 
 
 
-\## 🔧 Installation Guide
+## 🔧 Installation Guide
 
 
 
-\### Step 1: Prerequisites
+### Step 1: Prerequisites
 
-\- Python 3.13 or higher installed
+- Python 3.13 or higher installed
 
-\- pip package manager
+- pip package manager
 
-\- Git (optional)
+- Git (optional)
 
 
 
-\### Step 2: Create Project Folder
+### Step 2: Create Project Folder
 
-```bash
 
 mkdir marico\_reconciliation\_advanced
 
@@ -248,11 +196,11 @@ cd marico\_reconciliation\_advanced
 
 
 
-\### Step 3: Create Virtual Environment (Recommended)
+### Step 3: Create Virtual Environment (Recommended)
 
 
 
-\# Windows
+# Windows
 
 python -m venv venv
 
@@ -260,7 +208,7 @@ venv\\Scripts\\activate
 
 
 
-\# Mac/Linux
+# Mac/Linux
 
 python3 -m venv venv
 
@@ -268,13 +216,13 @@ source venv/bin/activate
 
 
 
-\### Step 4: Install Dependencies
+### Step 4: Install Dependencies
 
 pip install -r requirements.txt
 
 
 
-\### Step 5: Create Data Folder
+### Step 5: Create Data Folder
 
 mkdir data
 
@@ -286,7 +234,7 @@ mkdir models
 
 
 
-\### Step 6: Add All Files
+### Step 6: Add All Files
 
 Copy all the provided code files into their respective folders:
 
@@ -304,7 +252,7 @@ CSV files → data folder
 
 
 
-\## 🚀 How to Run
+## 🚀 How to Run
 
 Start the Application
 
@@ -314,7 +262,7 @@ streamlit run app.py
 
 
 
-\## Expected Output
+## Expected Output
 
 
 
@@ -322,13 +270,13 @@ You can now view your Streamlit app in your browser.
 
 
 
-&#x20; Local URL: http://localhost:8501
+Local URL: http://localhost:8501
 
-&#x20; Network URL: http://192.168.1.100:8501
+Network URL: http://192.168.1.100:8501
 
 
 
-\## Open Browser
+## Open Browser
 
 
 
@@ -336,11 +284,11 @@ Navigate to http://localhost:8501
 
 
 
-\## 📊 Demo Guide
+## 📊 Demo Guide
 
 
 
-1\. Dashboard View (Default Page)
+1. Dashboard View (Default Page)
 
 See total invoices, mismatches, financial impact
 
@@ -354,7 +302,7 @@ See total invoices, mismatches, financial impact
 
 
 
-2\. Run Reconciliation
+2. Run Reconciliation
 
 * Click on "Reconciliation" tab
 
@@ -368,7 +316,7 @@ See total invoices, mismatches, financial impact
 
 
 
-3\. Test QR Scanner
+3. Test QR Scanner
 
 * Go to "Scan Product" page
 
@@ -386,7 +334,7 @@ See total invoices, mismatches, financial impact
 
 
 
-4\. Resolve Claims
+4. Resolve Claims
 
 * Navigate to "Claims Resolution"
 
@@ -404,7 +352,7 @@ See total invoices, mismatches, financial impact
 
 
 
-5\. View Analytics
+5. View Analytics
 
 * Go to "Analytics" tab
 
@@ -418,11 +366,11 @@ See total invoices, mismatches, financial impact
 
 
 
-\### 🤖 AI Capabilities Explained
+### 🤖 AI Capabilities Explained
 
 
 
-\## How AI Works:
+## How AI Works:
 
 * Training Data Generation
 
@@ -500,11 +448,11 @@ See total invoices, mismatches, financial impact
 
 
 
-\### 📸 Screenshots
+### 📸 Screenshots
 
 
 
-\## Dashboard
+## Dashboard
 
 
 
@@ -534,7 +482,7 @@ See total invoices, mismatches, financial impact
 
 
 
-\## Claims Resolution
+## Claims Resolution
 
 
 
@@ -566,191 +514,114 @@ See total invoices, mismatches, financial impact
 
 
 
-\## 🔍 Troubleshooting
+## 🔍 Troubleshooting
 
+# Issue 1: Module Not Found Error
 
-
-\# Issue 1: Module Not Found Error
-
-
-
-\# Solution: Install missing module
+# Solution: Install missing module
 
 * pip install \[module\_name]
 
+# Issue 2: CSV Files Not Found
 
-
-\# Issue 2: CSV Files Not Found
-
-
-
-\# Ensure data folder exists with CSV files
+# Ensure data folder exists with CSV files
 
 ls data/
 
-\# Should show: company\_data.csv, customer\_data.csv, product\_master.csv
+# Should show: company\_data.csv, customer\_data.csv, product\_master.csv
 
+# Issue 3: Streamlit Port Already in Use
 
-
-\# Issue 3: Streamlit Port Already in Use
-
-\# Run on different port
+# Run on different port
 
 streamlit run app.py --server.port 8502
 
+#Issue 4: OpenCV/Pyzbar Installation Error (Windows)
 
+# For camera scanning (optional - simulation works without it)
 
-\#Issue 4: OpenCV/Pyzbar Installation Error (Windows)
+# Install Visual C++ Build Tools first
 
-
-
-\# For camera scanning (optional - simulation works without it)
-
-\# Install Visual C++ Build Tools first
-
-\# Then:
+# Then:
 
 * pip install opencv-python-headless
 
-
-
-\# Issue 5: AI Model Not Loading
-
-
+# Issue 5: AI Model Not Loading
 
 * The system automatically trains on first run
 
-
-
 * Model saved to models/mismatch\_classifier.pkl
-
-
 
 * If error, delete the file and restart
 
-
-
-\## 🎯 Business Impact
+## 🎯 Business Impact
 
 * Before (Manual Process)
 * Reconciliation Cycle: 2-3 months
 
-
-
 * Working Capital Blocked: High
-
-
 
 * Claims Resolution: 45+ days
 
-
-
 * Manual Effort: 20+ hours/week
 
-
-
-\## After (AI System)
+## After (AI System)
 
 * Reconciliation Cycle: Real-time
 
-
-
 * Working Capital Blocked: Reduced by 60%
-
-
 
 * Claims Resolution: 2-3 days
 
-
-
 * Manual Effort: 2 hours/week
 
-
-
-\## 🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 * Real-time API integration with SAP
 
-
-
 * Email notifications for mismatches
-
-
 
 * Mobile app for field teams
 
-
-
 * Blockchain for audit trail
 
-
-
 * Predictive analytics for cash flow
-
-
 
 * Auto-credit note generation
 
 
 
-\### 📞 Support
+### 📞 Support
 
 * For issues or questions:
 
-
-
 * Check Troubleshooting section
-
-
 
 * Ensure all files are in correct folders
 
-
-
 * Verify Python version (3.13+)
 
-
-
-&#x20;### License
+### License
 
 * This project is for educational/demo purposes for Marico assignment.
 
-
-
-\## 🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 * Marico Industries for use case inspiration
 
-
-
 * Streamlit for amazing UI framework
 
-
-
 * Scikit-learn for ML capabilities
-
-
 
 * ✅ Checklist Before Running
 * Python 3.13+ installed
 
-
-
 * Virtual environment created
-
-
 
 * All CSV files in data/ folder
 
-
-
 * All module files in correct folders
-
-
 
 * pip install -r requirements.txt executed
 
-
-
 * Run streamlit run app.py
-

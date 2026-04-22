@@ -1,0 +1,6 @@
+﻿invoice_id,customer_name,amount,status
+INV001,Reliance Retail,74250,Reported
+INV002,DMart,89100,Reported
+INV003,Amazon India,59800,Reported
+INV004,Flipkart,88875,Reported
+INV005,Nykaa,36850,Reported

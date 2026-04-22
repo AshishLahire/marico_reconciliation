@@ -1,0 +1,6 @@
+﻿invoice_id,customer_name,amount,date,product_name,quantity,channel
+INV001,Reliance Retail,75000,15-01-2024,Parachute Oil,500,OT
+INV002,DMart,89700,16-01-2024,Svelte Oil,300,OT
+INV003,Amazon India,59800,17-01-2024,Livon Serum,200,D2C
+INV004,Flipkart,90000,18-01-2024,Set Wet Spray,400,D2C
+INV005,Nykaa,37350,19-01-2024,Svelte Oil,150,D2C

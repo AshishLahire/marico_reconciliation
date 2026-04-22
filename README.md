@@ -12,6 +12,8 @@
 
 This is an **AI-powered intelligent reconciliation system** designed for FMCG companies like **Marico** to automate customer reconciliation and claims resolution across **Organised Trade (OT)**, **Modern Trade (MT)**, and **Direct-to-Consumer (D2C)** channels.
 
+### live deployment link is here : https://marico-reconciliation.onrender.com
+
 
 
 ### Business Problem Solved
